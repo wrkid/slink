@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ru.bnpl.mobile.beta",
+    "sha256_cert_fingerprints":
+    ["90:25:3B:47:D4:A2:A8:A7:3E:87:0D:8C:30:B7:0A:6E:ED:63:6B:49:23:9A:D7:7E:74:E2:08:31:53:4A:7E:50"]
+  }
+}]

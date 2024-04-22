@@ -15,12 +15,12 @@ window.addEventListener('click', function(e) {
     } else if (value === 'btn2') {
         window.location.href = deep2;
     } else if (value === 'btn3') {
-      window.location.href = deep2;
+      window.location.href = deep3;
     } else if (value === 'btn4') {
-      window.location.href = deep2;
+      window.location.href = deep4;
     } else if (value === 'btn5') {
-      window.location.href = deep2;
+      window.location.href = deep5;
     } else if (value === 'btn6') {
-      window.location.href = deep2;
+      window.location.href = deep6;
     }
 })
