@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      body {
+        display: flex;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 auto;
+      }
         .btn {
-          width: 120px;
-          height: 30px;
+          display: flex;
+          flex: 0 0 auto;
+          align-items: center;
+          justify-content: center;
+          padding: 6px 18px;
           border: 1px solid black;
           background: #fff;
           cursor: pointer;
@@ -20,8 +31,10 @@
     </style>
 </head>
 <body>
+  <div class="content">
     <div class="btn btn1" id="btn1">Huawei1</div>
     <div class="btn btn2" id="btn2">Huawei2</div>
+  </div>
     <script src="./script.js"></script>
 </body>
 </html>
