@@ -4,9 +4,9 @@ const deep1 = 'market://launch?id='+id1
 const deep2 = 'hiapplink://com.huawei.appmarket?appId='+id1
 const deep3 = 'appmarket://details?id='+id1
 
-const deep5 = 'market://launch?id='+id2
-const deep6 = 'hiapplink://com.huawei.appmarket?appId='+id2
-const deep7 = 'appmarket://details?id='+id2
+const deep4 = 'market://launch?id='+id2
+const deep5 = 'hiapplink://com.huawei.appmarket?appId='+id2
+const deep6 = 'appmarket://details?id='+id2
 window.addEventListener('click', function(e) {
     const value = e.target.getAttribute('id');
     console.log(value)
